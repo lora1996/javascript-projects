@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Scroll</title>
+  <!-- font awesome -->
+  <link rel="stylesheet" href="./fontawesome-free-5.12.0-web/css/all.min.css" />
+  <!-- styles -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!--header-->
+  <header id="home">
+    <!--navbar-->
+    <nav id="nav">
+      <div class="nav-center">
+        <!--navheader-->
+        <div class="nav-header">
+          <img src="./travel.png" alt="logo" class="logo">
+          <button class="nav-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+        <!--links-->
+        <div class="links-container">
+          <ul class="links">
+            <li>
+              <a href="#home" class="scroll-link">home</a>
+            </li>
+            <li>
+              <a href="#about" class="scroll-link">about</a>
+            </li>
+            <li>
+              <a href="#services" class="scroll-link">services</a>
+            </li>
+            <li>
+              <a href="#tours" class="scroll-link">tours</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--banner-->
+    <div class="banner">
+      <div class="container">
+        <h1>Book a holiday project</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium sed aspernatur ratione aut. Atque
+          commodi sequi quod incidunt mollitia tempora?</p>
+        <a href="#tours" class="scroll-link btn btn-white">
+          explore tours
+        </a>
+      </div>
+    </div>
+  </header>
+  <!--about-->
+  <section id="about" class="section">
+    <div class="title">
+      <h2>about <span>us</span></h2>
+    </div>
+    <!--items in section-->
+    <div class="items">
+      <div>
+        <img src="./history.jpeg" alt="history">
+        <h2>some <span>history</span></h2>
+      </div>
+      <div>
+        <img src="./promotions.jpeg" alt="promotions">
+        <h2>promotions <span>we offer</span></h2>
+      </div>
+      <div>
+        <img src="./contact.jpeg" alt="contact">
+        <h2>contact <span>us</span></h2>
+      </div>
+    </div>
+  </section>
+  <!--services-->
+  <section id="services" class="section">
+    <div class="title">
+      <h2>our <span>services</span></h2>
+    </div>
+    <!--items in section-->
+    <div class="items">
+      <div>
+        <img src="./pickup.jpeg" alt="pickup">
+        <h2>airport <span>pick-up</span></h2>
+      </div>
+      <div>
+        <img src="./tourguide.jpeg" alt="tourguide">
+        <h2>tour <span>guide</span></h2>
+      </div>
+      <div>
+        <img src="./hotels.jpeg" alt="hotels">
+        <h2>our <span>hotels</span></h2>
+      </div>
+    </div>
+  </section>
+  <!--tours-->
+  <section id="tours" class="section">
+    <div class="title">
+      <h2>our <span>tours</span></h2>
+    </div>
+    <!--items in section-->
+    <div class="items">
+      <div>
+        <img src="./calendar.jpeg" alt="calendar">
+        <h2>schedule <span>2020</span></h2>
+      </div>
+      <div>
+        <img src="./classes.jpeg" alt="classes">
+        <h2>stuff <span>to do</span></h2>
+      </div>
+      <div>
+        <img src="./book.jpeg" alt="book">
+        <h2>book a <span>tour or class</span></h2>
+      </div>
+    </div>
+  </section>
+  <!--footer-->
+  <footer class="section">
+    <p>
+      copyright &copy; backroads trave tours company <span id="date"></span>
+      .all rights reserved
+    </p>
+  </footer>
+  <!--back to top button-->
+  <a href="#home" class="scroll-link top-link">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+
+  <!-- javascript -->
+  <script src="app.js"></script>
+</body>
+
+</html>
